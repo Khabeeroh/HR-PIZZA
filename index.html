@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR-PIZZA</title>
+    <!-- google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
+     <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    </head>
+<body>
+    <div class="">
+    <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-center gap-0 gap-lg-5 px-1 px-md-5 px-lg-5">
+            <div class="container-fluid d-flex justify-content-between align-items-center gap-5">
+                <a class="navbar-brand text-light fs-1 me-lg-5" href="#">HRpiz</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-light"></span>
+                </button>
+                <div class="collapse navbar-collapse text-light ms-0 ms-lg-5" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5 mx-5">
+                    <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-light" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class=" d-none d-lg-flex gap-1 gap-lg-3 nav-foot">
+                <div  class=" d-flex gap-1  gap-lg-3 align-items-start align-items-lg-center justify-content-start justify-content-lg-center icon">
+                <i class="fa-solid fa-heart rounded-circle border p-2"></i>
+                <i class="fa-solid fa-user rounded-circle border p-2"></i>
+                <i class="fa-solid fa-cart-shopping rounded-circle border p-2"></i>
+                </div>
+                <button type="button" class="btn btn-outline-dark bg-light rounded-2">Login</button>
+            </div>
+    </nav>
+    <!-- Header -->
+    <div class="container-fluid text-light header px-1 px-lg-5 px-md-5 pt-2" style="height: 35rem;">
+        <div class="row d-flex align-items-center mx-0 ">
+            <div class="col-12 col-lg-6 col-md-6 left-side">
+                <h1>ENJOY OUR DELICIOUS <span class="text-warning">FOOD</span></h1>
+                <hr class="border border-light opacity-75 w-75 mt-0">
+                <p class="fs-4">Get a taste of perfection with every slide!</p>
+                <button type="button" class="btn btn-outline-dark bg-light rounded-2 px-5">Try It Now</button>  
+            </div>
+            <div class="col-12 col-lg-5 col-md-5 pt-4 pt-lg-0">
+                <img src="images/header-pizza.png " alt="" style="width: 35rem;">
+            </div>
+        </div>
+    </div>
+    <!-- promo -->
+     <div class="container text-center mt-5 promo m-1 m-lg-5 mb-5">
+        <div class="row flex-nowrap overflow-x-scroll pt-5 gap-2 mx-0 mx-lg-5 mx-md-3">
+            <div class="col-lg-3 col-md-4 col-6 bg-light py-4 d-flex flex-column gap-2 mx-auto border sub-promo p-4">
+                <i class="fa-solid fa-pizza-slice"></i>
+                <h6>Maxican Pizza</h6>
+                <p>Food is any substance consumed to provide nutritional support for an organism</p>
+                <img src="images/promo-1.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 bg-light py-4 d-flex flex-column gap-2 mx-auto border sub-promo p-4 ">
+                <i class="fa-solid fa-pizza-slice"></i>
+                <h6>Soft Drink</h6>
+                <p>Food is any substance consumed to provide nutritional support for an organism</p>
+                <img src="images/promo-2.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 bg-light py-4 d-flex flex-column gap-2 mx-autoborder sub-promo p-4">
+                 <i class="fa-solid fa-pizza-slice"></i>
+                <h6>French Fry</h6>
+                <p>Food is any substance consumed to provide nutritional support for an organism</p>
+                <img src="images/promo-3.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 bg-light py-4 d-flex flex-column gap-2 mx-auto border sub-promo  p-4">
+                 <i class="fa-solid fa-pizza-slice"></i>
+                <h6>Burger Kingo</h6>
+                <p>Food is any substance consumed to provide nutritional support for an organism</p>
+                <img src="images/promo-4.png" alt="" class="w-100">
+            </div>
+        </div>
+    </div>
+    <!-- Order -->
+     <div class="container m-2 m-lg-5 p-5 ps-2 order">
+        <div class="row align-items-start gap-1 gap-lg-5 gap-md-5">
+            <div class="col-12 col-lg-5 col-md-5">
+                 <img src="images/sale-shape-red.png"   class="z-3 position-absolute p-2 rounded-3"  alt="" style="width: 13rem;">
+               <div class="pizz">
+                <img src="images/pizz.png" alt="">
+               </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+                <h2 class="fs-1" style="width: 60%;">Caferio, Burgers, and Best Pizzas <span class="d-block">in Town!</span></h2>
+                <p class="fs-5">The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families.</p>
+                <ul>
+                    <li>Delicious and healthy food</li>
+                    <li>Spacific Family And Kids Zone</li>
+                    <li>Music & Other Facilities</li>
+                    <li>Fastest Food Home Delivery</li>
+                </ul>
+                 <button type="button" class="btn btn-outline-white bg-warning text-light rounded-2 ms-4">Order Now</button>
+            </div>
+        </div>
+     </div>
+
+     <!-- Food Items -->
+      <div class="container-fluid items pb-5">
+        <!-- popular menu -->
+         <div class=" text-center pt-3">
+            <p class="fst-italic pb-0 text-light">Food Items</p>
+            <h2 class="pt-0 text-light">Popular <span>Menu</span></h2>
+            <div class="row flex-nowrap overflow-x-scroll pt-5 gap-2 mx-0 mx-lg-5 mx-md-3">
+                <div class="col-lg-2 col-md-2 col-4 bg-light py-4 pd-0 d-flex flex-column gap-2 rounded-3 mx-auto food-items"  style="width: 13rem; height: 12rem;">
+                    <div class="">
+                        <img src="images/pizza (1).png" alt="" class="w-100">
+                    </div>
+                    <div>
+                        <p class="fs-4">Pizza</p>
+                    </div>
+                </div>
+                 <div class="col-lg-2 col-md-2 col-4 bg-light py-4 d-flex flex-column gap-2 rounded-3 mx-auto food-items" style="width: 13rem; height: 12rem;">
+                    <div>
+                        <img src="images/burger.png" alt="">
+                    </div>
+                    <div>
+                        <p class="fs-4">Burger</p>
+                    </div>
+
+                </div>
+                 <div class="col-lg-2 col-md-2 col-4 bg-light py-4 d-flex flex-column gap-2 rounded-3 mx-auto food-items" style="width: 13rem; height: 12rem;">
+                    <div>
+                        <img src="images/chicken.png" alt="">
+                    </div>
+                    <div>
+                        <p class="fs-5">Chicken</p>
+                    </div>
+
+                </div>
+                 <div class="col-lg-2 col-md-2 col-4 bg-light py-4 d-flex flex-column gap-2 rounded-3 mx-auto food-items"style="width: 13rem; height: 12rem;">
+                    <div>
+                        <img src="images/drinks.png" alt="">
+                    </div>
+                    <div>
+                        <p class="fs-4">Drinks</p>
+                    </div>
+                </div>
+                 <div class="col-lg-2 col-md-2 col-4 bg-light py-4 d-flex flex-column gap-2 rounded-3 mx-auto food-items" style="width: 13rem; height: 12rem;">
+                    <div>
+                        <img src="images/drinks2.png" alt="">
+                    </div>
+                    <div>
+                        <p class="fs-4">Drinks</p>
+                    </div>
+
+                </div>
+                 <div class="col-lg-2 col-md-2 col-4 bg-light py-4 d-flex flex-column gap-2 rounded-3 mx-auto food-items" style="width: 13rem; height: 12rem;">
+                    <div>
+                        <img src="images/combo.png" alt="" class="w-50">
+                    </div>
+                    <div>
+                        <p class="fs-4">Combo menus</p>
+                    </div>
+
+                </div>
+            </div>  
+        </div>
+        <!-- Popular Speciality -->
+         <div class="speciality pt-5 m-0 m-lg-5 m-md-3">
+            <h2 class="text-center text-light">Popular <span>Speciality</span></h2>
+            <div class="container mt-4 bg-light rounded-3 px-0 px-lg-3 mx-0">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card m-lg-3 pt-5" style="width: 15rem;">
+                            <img src="images/shirmp-pizza.png" class="card-img-top mx-auto" alt="..." style="width: 14rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Cheese Pizza</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                <div class="d-flex gap-5 justify-content-between ">
+                                    <p>$12.95</p>
+                                     <a href="#" class="btn btn-light text-light border-0 ">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card m-3 pt-5" style="width: 15rem;">
+                            <img src="images/barbeque-chicken.png" class="card-img-top mx-auto" alt="..." style="width: 14rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Berbeque Chicken</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                <div class="d-flex gap-5 justify-content-between ">
+                                    <p>$12.95</p>
+                                     <a href="#" class="btn btn-light text-light border-0 ">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card m-3 pt-5" style="width: 15rem;">
+                            <img src="images/pepperoni.png" class="card-img-top mx-auto" alt="..." style="width: 14rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Pepperoni</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                <div class="d-flex gap-5 justify-content-between ">
+                                    <p>$12.95</p>
+                                     <a href="#" class="btn btn-light text-light border-0 ">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card m-3 pt-5" style="width: 15rem;">
+                            <img src="images/vegetarian.png" class="card-img-top mx-auto" alt="..." style="width: 14rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Vegeterian</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                <div class="d-flex gap-5 justify-content-between ">
+                                    <p>$12.95</p>
+                                     <a href="#" class="btn btn-light text-light border-0 ">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <!-- delivery Man -->  
+          <div class="container m-0 m-lg-5 m-md-3 pt-5 mb-5 delivery text-light">
+            <div class="row d-flex mt-5">
+                <div class="col-8 col-lg-4 col-lg-5 ">
+                    <h3 class="fs-1 w-100">A Moment Of Delivered On <span class="d-inline-block">Right Time</span> & Place</h3>
+                    <p class="fs-5 ">The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families</p>
+                    <a href="#" class="btn btn-light text-light border-0 fs-5 p-2">Order now</a>
+                </div>
+                <div class="col-12 col-lg-5 col-lg-5 pt-5  pt-lg-0">
+                    <img src="images/delivery-boy.svg" class="w-75" alt="">
+                </div>
+            </div>
+          </div>
+
+          <!-- testimonial -->
+           <div class="container testimonial mt-3 mt-lg-5 py-3 py-lg-5 ms-0 ms-lg-5">
+            <div class="text-center text-light">
+                <p class="fst-italic mb-0 fs-4">Testimonial</p>
+                <h4 class="pt-0 fs-1">Client <span>Feedback</span></h4>
+            </div>
+            <div class="row flex-nowrap overflow-x-scroll pt-3 gap-3 mx-0 mx-lg-3">
+                <div class="col-12 col-lg-4 col-md bg-light px-4 py-4 rounded-3 testimonial-col">
+                    <div class=" d-flex gap-2">
+                        <img src="images/HAM.png" class="rounded-circle" style="width: 4rem; height: 4rem;" alt="">
+                        <div>
+                            <h5 class="">Olajide Kabirat</h5>
+                            <p>CEO kingfisher</p>
+                        </div>
+                    </div>
+                    <p  class="fs-5">"I would be lost within restaurant. I would like to personally thank you for your outstanding product."</p>
+                </div>
+
+                  <div class="col-12 col-lg-4 col-md bg-light px-4 py-4 rounded-3 testimonial-col" >
+                    <div class=" d-flex gap-2">
+                        <img src="images/avatar-2.jpg" class="rounded-circle" style="width: 4rem; height: 4rem;" alt="">
+                        <div>
+                            <h5 class="">Olajide Kabirat</h5>
+                            <p>CEO kingfisher</p>
+                        </div>
+                    </div>
+                    <p  class="fs-5">"I would be lost within restaurant. I would like to personally thank you for your outstanding product."</p>
+                </div>
+
+                  <div class="col-12 col-lg-4 col-md bg-light px-4 py-4  rounded-3 testimonial-col">
+                    <div class=" d-flex gap-2">
+                        <img src="images/testi-1 (1).png" class="rounded-circle" style="width: 4rem; height: 4rem;" alt="">
+                        <div>
+                            <h5 class="">Olajide Kabirat</h5>
+                            <p>CEO kingfisher</p>
+                        </div>
+                    </div>
+                    <p class="fs-5">"I would be lost within restaurant. I would like to personally thank you for your outstanding product."</p>
+                </div>
+            </div>
+           </div>
+           <!-- online Reservation -->
+           <div class="container text-light mt-5 online-reservation">
+                <div class="text-center pb-4">
+                    <p class="fst-italic fs-5 mb-1">Online Reservation</p>
+                    <h3 class="fs-1">Book a <span>table now!</span></h3>
+                </div>
+                <div class="row align-items-start">
+                    <div class="col-12 col-lg col-md">
+                    <h2 class="">Working Hours</h2>
+                    <table cellpadding="10px" cellspacing="0px">
+                        <tr class="">
+                            <td class="fs-4 ">Mon-Fri</td>
+                            <td class="fs-5">9:00am-8:00pm</td>
+                        </tr>
+                         <tr>
+                            <td class="fs-4">Launching</td>
+                            <td class="fs-5">Everyday</td>
+                        </tr>
+                         <tr>
+                            <td class="fs-4">Saturday</td>
+                            <td class="fs-5">9:00am-3:00pm</td>
+                        </tr>
+                         <tr>
+                            <td class="fs-4">Sunday</td>
+                            <td class="text-danger fs-5">Closed</td>
+                        </tr> 
+                    </table>
+                    <p class="fs-4 pt-3">Signup and get exclusive offers and coupon codes</p>
+                    <a href="#" class="btn btn-light text-light border-0 px-3">Sign Up</a>
+
+                    </div>
+                    <div class="col-12 col-lg col-md mt-5">
+                        <div class="row pb-4">
+                            <div class="col">
+                                <input type="text" class="form-control p-3" placeholder="Name" aria-label="Name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control p-3" placeholder="Email" aria-label="Email">
+                            </div>
+                        </div>
+                        <div class="row pb-4">
+                            <div class="col">
+                                <input type="text" class="form-control p-3" placeholder="Phone" aria-label="Number">
+                            </div>
+                            <div class="col ">
+                                <input type="text" class="form-control p-3" placeholder="Date" aria-label="Date">
+                            </div>
+                        </div>
+                        <div class="row pb-4">
+                            <div class="col">
+                                <input type="text" class="form-control p-3" placeholder="Pizza Type" aria-label="name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control p-3" placeholder="Address" aria-label="Address">
+                            </div>
+                        </div>
+                         <a href="#" class="btn btn-light text-light border-0 px-3">Book Now!</a>
+                    </div>             
+                </div>
+            </div>
+      </div>
+      <!-- GAllery -->
+       <div class="container gallery m-0 m-lg-5 m-md-4">
+           <div class="text-center pb-4">
+                    <p class="fst-italic fs-5 mb-1">Fresh from HRpiz</p>
+                    <h4 class="fs-1">Image <span>Gallery</span></h4>
+            </div>
+            <div class="row flex-nowrap overflow-x-scroll pt-0 gap-0 gap-lg-5 gap-md-0 mx-0 mx-lg-4 mx-md-1">
+                <div class="col-12 col-lg-3 col-md-5">
+                    <div class="card p-3" style="width: 18rem; height: 24rem;">
+                        <img src="images/wings-xs.jpg" class="card-img-top rounded-2" alt="...">
+                        <div class="card-body p-0">
+                            <h4 class="card-title mb-0">DEEP FRIED CHICKEN</h4>
+                            <div class="d-flex gap-2">
+                                <p class="card-text fs-4">5.0</p>
+                                <div class="star pt-2">
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                </div>
+                            </div>
+                    </div>
+                 </div>
+                </div>
+                  <div class="col-10 col-lg-3 col-md-5">
+                    <div class="card p-3" style="width: 18rem; height: 24rem;">
+                        <img src="images/one.jpg" class="card-img-top rounded-2" alt="...">
+                        <div class="card-body p-0">
+                            <h4 class="card-title mb-0">BBQ PORK RIB</h4>
+                            <div class="d-flex gap-2">
+                                <p class="card-text fs-4">5.0</p>
+                                <div class="star pt-2">
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                   <div class="col-10 col-lg-3 col-md-5">
+                    <div class="card p-3" style="width: 18rem; height: 24rem;">
+                        <img src="images/two.jpg" class="card-img-top rounded-2" alt="...">
+                        <div class="card-body p-0">
+                            <h4 class="card-title mb-0">GARLIC SHRIMPS PASTA</h4>
+                            <div class="d-flex gap-2">
+                                <p class="card-text fs-4">4.0</p>
+                                <div class="star pt-2">
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-dark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-5">
+                    <div class="card p-3" style="width: 18rem; height: 24rem;">
+                        <img src="images/three.jpg" class="card-img-top rounded-2" alt="...">
+                        <div class="card-body p-0">
+                            <h4 class="card-title mb-0">GRILLED SALMON</h4>
+                            <div class="d-flex gap-2">
+                                <p class="card-text fs-4">5.0</p>
+                                <div class="star pt-2">
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-5">
+                    <div class="card p-3" style="width: 18rem; height: 24rem;">
+                        <img src="images/four.jpg" class="card-img-top rounded-2" alt="...">
+                        <div class="card-body p-0">
+                            <h4 class="card-title mb-0">SPINACH BLUEBERRIES SALAD</h4>
+                            <div class="d-flex gap-2">
+                                <p class="card-text fs-4">4.9</p>
+                                <div class="star pt-2">
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-5">
+                    <div class="card p-3" style="width: 18rem; height: 24rem;">
+                        <img src="images/five.jpg" class="card-img-top rounded-2" alt="...">
+                        <div class="card-body p-0">
+                            <h4 class="card-title mb-0">PIZZA MUSHROOM</h4>
+                            <div class="d-flex gap-2">
+                                <p class="card-text fs-4">5.0</p>
+                                <div class="star pt-2">
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                <div class="col-12 col-lg-3 col-md-5">
+                    <div class="card p-3" style="width: 18rem; height: 24rem;">
+                        <img src="images/six.jpg" class="card-img-top rounded-2" alt="...">
+                        <div class="card-body p-0">
+                            <h4 class="card-title mb-0">MANGAL RIB EYE STEAK</h4>
+                            <div class="d-flex gap-2">
+                                <p class="card-text fs-4">5.0</p>
+                                <div class="star pt-2">
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-5">
+                    <div class="card p-3" style="width: 18rem; height: 24rem;">
+                        <img src="images/seven.jpg" class="card-img-top rounded-2" alt="...">
+                        <div class="card-body p-0">
+                            <h4 class="card-title mb-0">FRESH BURGER PATTIE</h4>
+                           <div class="d-flex gap-2">
+                                <p class="card-text fs-4">5.0</p>
+                                <div class="star pt-2">
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                    <i class="fa fa-star fs-5 text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <!-- footer -->
+         <div class="container-fluid text-light footer p-5 p-md-3">
+            <div class="row align-items-start mx-auto gap-3 gap-lg-5 gap-md-3 pb-0 pb-lg-5 pb-md-5 ">
+                <div class="col-12 col-lg-4 col-md-4 ms-0 ms-lg-5 ms-md-3">
+                    <h1>HRpiz</h1>
+                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa excepturi qui autem quos dolores nulla ullam accusamus .</p>
+                    <div class="social-media d-flex gap-3">
+                        <i class="fa-brands fa-facebook fs-4 text-light"></i>
+                        <i class="fa-brands fa-instagram fs-4 text-light"></i>
+                        <i class="fa-brands fa-twitter fs-4 text-light"></i>
+                        <i class="fa-brands fa-youtube fs-4 text-light"></i>
+                        <i class="fa-brands fa-linkedin fs-4 text-light"></i>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-3">
+                    <h2>Information</h2>
+                    <table cellpadding="10px" class="fs-5 ms-0 ms-lg-3 ms-md-2">
+                        <tr>
+                            <td class="">Home</td>
+                            <td>Reservation</td>
+                        </tr>
+                        <tr>
+                            <td>About</td>
+                            <td>Gallery</td>
+                        </tr>
+                         <tr>
+                            <td>Menu</td>
+                            <td>Contact</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-12 col-lg-3 col-md-3 ">
+                    <h2>Contact</h2>
+                    <div class="ms-0 ms-lg-3 ms-md-1 fs-5">
+                    <div class="d-flex gap-2">
+                        <i class="fa fa-location fs-5 text-light"></i>
+                        <p>Ogbomoso,Oyo state</p>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <i class="fa fa-envelope fs-5 text-light"></i>
+                        <p>olajidekabirat5@gmail.com</p>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <i class="fa fa-phone fs-5 text-light"></i>
+                        <p>+2348070565841</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+*{
+      font-family: "Neuton", serif;
+      box-sizing: border-box;
+}
+.navbar, .header, .items, .footer{
+    background-color: rgb(54, 53, 53)!important;
+}
+.nav-foot button, .header button, .speciality a{
+    font-size: 18px;
+}
+.testimonial p{
+    font-size: 15px;
+}
+.icon{
+    color: white;
+}
+.left-side span, .order span, .items span, .delivery span,.testimonial span, .gallery span{
+    color: rgb(236, 145, 65) !important;
+}
+.order button, .delivery a, .online-reservation a{
+    background-color:  rgb(236, 145, 65) !important;
+}
+.left-side h1{
+    font-size: 60px;
+}
+.promo p{
+    font-size: 10px;
+}
+.sub-promo{
+    background: linear-gradient(-10deg, rgb(236, 145, 65)30%,  rgb(236, 145, 65), white 20%, white);
+}
+.sub-promo:hover{
+    background: linear-gradient( rgb(236, 145, 65));
+    color: white;
+}
+.food-items:hover, .speciality a:hover{
+    background-color:  rgb(236, 145, 65) !important;
+    color: white;
+}
+.pizz img{
+    width: 33rem !important;
+}
+.testimonial-col{
+    width: 23rem !important;
+    height: 14rem !important;
+}
+
+@media screen and (max-width: 900px) {
+    .header{
+        height: auto !important;
+    }
+    .left-side h1{
+    font-size: 25px !important;
+    width: 60%;
+}
+.header img{
+    width: 80% !important;
+}
+.left-side p{
+    font-size: 18px !important;
+}
+.pizz img{
+    width: 22rem !important;
+}
+.card{
+    width: 90% !important;
+    margin:  10px auto !important;  
+}
+.testimonial-col{
+    width: 100% !important;
+    height: auto !important;
+}
+.gallery .card{
+    height: auto !important;
+}
+}
+@media screen and (max-width:960px) and (min-width:768px) {
+    .left-side h1{
+         font-size: 3rem !important;
+         width: 100% !important;
+    }
+    .header img, .pizz img{
+        width: 20rem !important;
+    }
+    .speciality .card{
+        width: 90% !important ;
+    }
+}
