@@ -79,8 +79,11 @@
          font-size: 3rem !important;
          width: 100% !important;
     }
+    .header{
+        height: 22rem !important;
+    }
     .header img, .pizz img{
-        width: 20rem !important;
+        width: 15rem !important;
     }
     .speciality .card{
         width: 90% !important ;
