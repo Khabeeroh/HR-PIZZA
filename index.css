@@ -44,7 +44,59 @@
     width: 23rem !important;
     height: 14rem !important;
 }
+.bike-man{
 
+    animation: 2s bike-man ease-in-out 1s 3 normal !important;
+     animation-play-state: running !important;
+     /* animation-duration: 2s !important;
+    animation-name:right-side !important;
+    animation-timing-function: ease-in-out !important;
+    animation-delay: 1s !important;
+    animation-iteration-count: 4 !important;
+    animation-direction: normal !important;
+    animation-play-state: running !important; */
+}
+@keyframes bike-man {
+    0%{
+
+    }
+    100%{
+        /* transform: rotate(360deg); */
+        transform: scale(30deg);
+        scale: 1.3;
+    }
+}
+.order-img{
+     animation: 2s order-img ease-in-out 1s 3 normal !important;
+     animation-play-state: running !important;
+}
+@keyframes order-img {
+    0%{
+
+    }
+    100%{
+        /* transform: rotate(360deg); */
+        transform: scale(30deg);
+        scale: 1.3;
+    }
+}
+.right-side{
+     animation: 2s right-side ease-in-out 1s 3 normal !important;
+     animation-play-state: running !important;
+}
+.right-side:hover{
+animation-play-state: paused !important;
+}
+@keyframes right-side {
+    0%{
+
+    }
+    100%{
+        /* transform: rotate(360deg); */
+        transform: scale(30deg);
+        scale: 1.3;
+    }
+}
 @media screen and (max-width: 900px) {
     .header{
         height: auto !important;
@@ -74,6 +126,7 @@
     height: auto !important;
 }
 }
+
 @media screen and (max-width:980px) and (min-width:768px) {
     .items{
         padding: 0 5rem 2rem 5rem !important;
