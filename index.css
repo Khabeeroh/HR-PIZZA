@@ -99,7 +99,7 @@ animation-play-state: paused !important;
 }
 @media screen and (max-width: 900px) {
     .header{
-        height: auto !important;
+        height: 40rem !important;
     }
     .left-side h1{
     font-size: 25px !important;
