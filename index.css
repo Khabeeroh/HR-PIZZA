@@ -46,7 +46,7 @@
 }
 .bike-man{
 
-    animation: 2s bike-man ease-in-out 1s 3 normal !important;
+    animation: 2s bike-man ease-in-out 1s infinite normal !important;
      animation-play-state: running !important;
      /* animation-duration: 2s !important;
     animation-name:right-side !important;
@@ -67,7 +67,7 @@
     }
 }
 .order-img{
-     animation: 2s order-img ease-in-out 1s 3 normal !important;
+     animation: 2s order-img ease-in-out 1s infinite normal !important;
      animation-play-state: running !important;
 }
 @keyframes order-img {
@@ -81,7 +81,7 @@
     }
 }
 .right-side{
-     animation: 2s right-side ease-in-out 1s 3 normal !important;
+     animation: 2s right-side ease-in-out 1s infinite normal !important;
      animation-play-state: running !important;
 }
 .right-side:hover{
